@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		67FF6EFFB08FC1F2D3F5AC0C /* Pods_DriveTestSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D8A1D82C9DE2F13BFA70DDF /* Pods_DriveTestSwift.framework */; };
+		810AB8591E9B8093000F53B4 /* HTTPTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810AB8581E9B8093000F53B4 /* HTTPTool.swift */; };
+		815636861E9E0059000B0CFB /* PassengerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815636851E9E0059000B0CFB /* PassengerModel.swift */; };
+		816E4A941EB0336C00381B1D /* RYAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816E4A931EB0336C00381B1D /* RYAlertView.swift */; };
+		817FDF201EA4C23E0000F6C0 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817FDF1E1EA4C23E0000F6C0 /* LoginController.swift */; };
+		817FDF211EA4C23E0000F6C0 /* LoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 817FDF1F1EA4C23E0000F6C0 /* LoginController.xib */; };
 		818528641E6E465300AA724A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818528631E6E465300AA724A /* AppDelegate.swift */; };
 		818528661E6E465300AA724A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818528651E6E465300AA724A /* ViewController.swift */; };
 		818528691E6E465300AA724A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 818528671E6E465300AA724A /* Main.storyboard */; };
@@ -14,6 +20,23 @@
 		8185286E1E6E465300AA724A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8185286C1E6E465300AA724A /* LaunchScreen.storyboard */; };
 		818528791E6E465300AA724A /* DriveTestSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818528781E6E465300AA724A /* DriveTestSwiftTests.swift */; };
 		818528841E6E465300AA724A /* DriveTestSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818528831E6E465300AA724A /* DriveTestSwiftUITests.swift */; };
+		818528991E6E562400AA724A /* SZTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818528981E6E562400AA724A /* SZTabBarController.swift */; };
+		8185289B1E6E582E00AA724A /* SZNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8185289A1E6E582E00AA724A /* SZNavigationController.swift */; };
+		8185289D1E6E584300AA724A /* SZBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8185289C1E6E584300AA724A /* SZBaseViewController.swift */; };
+		818528A61E6E5A2D00AA724A /* MeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818528A51E6E5A2D00AA724A /* MeController.swift */; };
+		818528AC1E6E5D5000AA724A /* SZConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818528AB1E6E5D5000AA724A /* SZConst.swift */; };
+		8185B2881E9725BB00A3A845 /* CustomerDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8185B2841E9725BB00A3A845 /* CustomerDetailController.swift */; };
+		8185B2891E9725BB00A3A845 /* CustomerListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8185B2851E9725BB00A3A845 /* CustomerListController.swift */; };
+		8185B28D1E97268E00A3A845 /* String+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8185B28B1E97268E00A3A845 /* String+Extention.swift */; };
+		8185B28E1E97268E00A3A845 /* UIColor+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8185B28C1E97268E00A3A845 /* UIColor+Extention.swift */; };
+		8185B2961E9727E600A3A845 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8185B2901E9727E600A3A845 /* HomeController.swift */; };
+		8185B2971E9727E600A3A845 /* HomePassengerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8185B2941E9727E600A3A845 /* HomePassengerCell.swift */; };
+		8185B2981E9727E600A3A845 /* HomePassengerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8185B2951E9727E600A3A845 /* HomePassengerCell.xib */; };
+		81CEB63D1EB1993300E26622 /* UIView+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CEB63C1EB1993300E26622 /* UIView+Extention.swift */; };
+		81EE04D91EA9E2610060F2C5 /* AddTestDriveController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EE04D71EA9E2610060F2C5 /* AddTestDriveController.swift */; };
+		81EE04DA1EA9E2610060F2C5 /* AddTestDriveController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81EE04D81EA9E2610060F2C5 /* AddTestDriveController.xib */; };
+		81EE04DD1EA9FCFB0060F2C5 /* CustomerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EE04DB1EA9FCFB0060F2C5 /* CustomerListCell.swift */; };
+		81EE04DE1EA9FCFB0060F2C5 /* CustomerListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81EE04DC1EA9FCFB0060F2C5 /* CustomerListCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +57,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D8A1D82C9DE2F13BFA70DDF /* Pods_DriveTestSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DriveTestSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		715482E1BF334DF822563D41 /* Pods-DriveTestSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DriveTestSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DriveTestSwift/Pods-DriveTestSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		810AB8581E9B8093000F53B4 /* HTTPTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPTool.swift; sourceTree = "<group>"; };
+		815636851E9E0059000B0CFB /* PassengerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassengerModel.swift; sourceTree = "<group>"; };
+		816E4A931EB0336C00381B1D /* RYAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RYAlertView.swift; sourceTree = "<group>"; };
+		817FDF1E1EA4C23E0000F6C0 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		817FDF1F1EA4C23E0000F6C0 /* LoginController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginController.xib; sourceTree = "<group>"; };
 		818528601E6E465300AA724A /* DriveTestSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DriveTestSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		818528631E6E465300AA724A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		818528651E6E465300AA724A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +77,24 @@
 		8185287F1E6E465300AA724A /* DriveTestSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DriveTestSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		818528831E6E465300AA724A /* DriveTestSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriveTestSwiftUITests.swift; sourceTree = "<group>"; };
 		818528851E6E465300AA724A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		818528981E6E562400AA724A /* SZTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SZTabBarController.swift; sourceTree = "<group>"; };
+		8185289A1E6E582E00AA724A /* SZNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SZNavigationController.swift; sourceTree = "<group>"; };
+		8185289C1E6E584300AA724A /* SZBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SZBaseViewController.swift; sourceTree = "<group>"; };
+		818528A51E6E5A2D00AA724A /* MeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeController.swift; sourceTree = "<group>"; };
+		818528AB1E6E5D5000AA724A /* SZConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SZConst.swift; sourceTree = "<group>"; };
+		8185B2841E9725BB00A3A845 /* CustomerDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerDetailController.swift; sourceTree = "<group>"; };
+		8185B2851E9725BB00A3A845 /* CustomerListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerListController.swift; sourceTree = "<group>"; };
+		8185B28B1E97268E00A3A845 /* String+Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extention.swift"; sourceTree = "<group>"; };
+		8185B28C1E97268E00A3A845 /* UIColor+Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extention.swift"; sourceTree = "<group>"; };
+		8185B2901E9727E600A3A845 /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		8185B2941E9727E600A3A845 /* HomePassengerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePassengerCell.swift; sourceTree = "<group>"; };
+		8185B2951E9727E600A3A845 /* HomePassengerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomePassengerCell.xib; sourceTree = "<group>"; };
+		81CEB63C1EB1993300E26622 /* UIView+Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extention.swift"; sourceTree = "<group>"; };
+		81EE04D71EA9E2610060F2C5 /* AddTestDriveController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTestDriveController.swift; sourceTree = "<group>"; };
+		81EE04D81EA9E2610060F2C5 /* AddTestDriveController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddTestDriveController.xib; sourceTree = "<group>"; };
+		81EE04DB1EA9FCFB0060F2C5 /* CustomerListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerListCell.swift; sourceTree = "<group>"; };
+		81EE04DC1EA9FCFB0060F2C5 /* CustomerListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomerListCell.xib; sourceTree = "<group>"; };
+		F5046095CEB5E97627566BCA /* Pods-DriveTestSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DriveTestSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-DriveTestSwift/Pods-DriveTestSwift.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67FF6EFFB08FC1F2D3F5AC0C /* Pods_DriveTestSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +123,103 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		16AE9A9CEA581C9BB6E91A38 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D8A1D82C9DE2F13BFA70DDF /* Pods_DriveTestSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F4349E40C2ED8BA73960D8B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				715482E1BF334DF822563D41 /* Pods-DriveTestSwift.debug.xcconfig */,
+				F5046095CEB5E97627566BCA /* Pods-DriveTestSwift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		815636871E9F8548000B0CFB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		816E4A8F1EB032E700381B1D /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				816E4A901EB032E700381B1D /* C */,
+				816E4A911EB032E700381B1D /* M */,
+				816E4A921EB032E700381B1D /* V */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		816E4A901EB032E700381B1D /* C */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		816E4A911EB032E700381B1D /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		816E4A921EB032E700381B1D /* V */ = {
+			isa = PBXGroup;
+			children = (
+				816E4A931EB0336C00381B1D /* RYAlertView.swift */,
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		817FDF191EA4C2050000F6C0 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				817FDF1A1EA4C2050000F6C0 /* C */,
+				817FDF1B1EA4C2050000F6C0 /* M */,
+				817FDF1C1EA4C2050000F6C0 /* Other */,
+				817FDF1D1EA4C2050000F6C0 /* V */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		817FDF1A1EA4C2050000F6C0 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				817FDF1E1EA4C23E0000F6C0 /* LoginController.swift */,
+				817FDF1F1EA4C23E0000F6C0 /* LoginController.xib */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		817FDF1B1EA4C2050000F6C0 /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		817FDF1C1EA4C2050000F6C0 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		817FDF1D1EA4C2050000F6C0 /* V */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
 		818528571E6E465300AA724A = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +227,8 @@
 				818528771E6E465300AA724A /* DriveTestSwiftTests */,
 				818528821E6E465300AA724A /* DriveTestSwiftUITests */,
 				818528611E6E465300AA724A /* Products */,
+				7F4349E40C2ED8BA73960D8B /* Pods */,
+				16AE9A9CEA581C9BB6E91A38 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +247,8 @@
 			children = (
 				818528631E6E465300AA724A /* AppDelegate.swift */,
 				818528651E6E465300AA724A /* ViewController.swift */,
+				818528951E6E556C00AA724A /* Class */,
+				815636871E9F8548000B0CFB /* Resources */,
 				818528671E6E465300AA724A /* Main.storyboard */,
 				8185286A1E6E465300AA724A /* Assets.xcassets */,
 				8185286C1E6E465300AA724A /* LaunchScreen.storyboard */,
@@ -125,6 +275,138 @@
 			path = DriveTestSwiftUITests;
 			sourceTree = "<group>";
 		};
+		818528951E6E556C00AA724A /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				817FDF191EA4C2050000F6C0 /* Login */,
+				816E4A8F1EB032E700381B1D /* Common */,
+				8185289F1E6E587800AA724A /* Home */,
+				8185B2821E9725BB00A3A845 /* Customer */,
+				818528A01E6E587800AA724A /* Me */,
+				818528961E6E556C00AA724A /* Main */,
+				8185B28A1E97268E00A3A845 /* Category */,
+				818528971E6E556C00AA724A /* Other */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		818528961E6E556C00AA724A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				818528981E6E562400AA724A /* SZTabBarController.swift */,
+				8185289A1E6E582E00AA724A /* SZNavigationController.swift */,
+				8185289C1E6E584300AA724A /* SZBaseViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		818528971E6E556C00AA724A /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				818528AB1E6E5D5000AA724A /* SZConst.swift */,
+				810AB8581E9B8093000F53B4 /* HTTPTool.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		8185289F1E6E587800AA724A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8185B28F1E9727E600A3A845 /* C */,
+				8185B2931E9727E600A3A845 /* V */,
+				8185B2911E9727E600A3A845 /* M */,
+				8185B2921E9727E600A3A845 /* Other */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		818528A01E6E587800AA724A /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				818528A51E6E5A2D00AA724A /* MeController.swift */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		8185B2821E9725BB00A3A845 /* Customer */ = {
+			isa = PBXGroup;
+			children = (
+				8185B2831E9725BB00A3A845 /* C */,
+				8185B2861E9725BB00A3A845 /* M */,
+				8185B2871E9725BB00A3A845 /* V */,
+			);
+			path = Customer;
+			sourceTree = "<group>";
+		};
+		8185B2831E9725BB00A3A845 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				8185B2851E9725BB00A3A845 /* CustomerListController.swift */,
+				8185B2841E9725BB00A3A845 /* CustomerDetailController.swift */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		8185B2861E9725BB00A3A845 /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		8185B2871E9725BB00A3A845 /* V */ = {
+			isa = PBXGroup;
+			children = (
+				81EE04DB1EA9FCFB0060F2C5 /* CustomerListCell.swift */,
+				81EE04DC1EA9FCFB0060F2C5 /* CustomerListCell.xib */,
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		8185B28A1E97268E00A3A845 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				8185B28B1E97268E00A3A845 /* String+Extention.swift */,
+				8185B28C1E97268E00A3A845 /* UIColor+Extention.swift */,
+				81CEB63C1EB1993300E26622 /* UIView+Extention.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		8185B28F1E9727E600A3A845 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				8185B2901E9727E600A3A845 /* HomeController.swift */,
+				81EE04D71EA9E2610060F2C5 /* AddTestDriveController.swift */,
+				81EE04D81EA9E2610060F2C5 /* AddTestDriveController.xib */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		8185B2911E9727E600A3A845 /* M */ = {
+			isa = PBXGroup;
+			children = (
+				815636851E9E0059000B0CFB /* PassengerModel.swift */,
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		8185B2921E9727E600A3A845 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		8185B2931E9727E600A3A845 /* V */ = {
+			isa = PBXGroup;
+			children = (
+				8185B2941E9727E600A3A845 /* HomePassengerCell.swift */,
+				8185B2951E9727E600A3A845 /* HomePassengerCell.xib */,
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +414,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 818528881E6E465300AA724A /* Build configuration list for PBXNativeTarget "DriveTestSwift" */;
 			buildPhases = (
+				FB2B5DE9252B965F0AFD4A5B /* [CP] Check Pods Manifest.lock */,
 				8185285C1E6E465300AA724A /* Sources */,
 				8185285D1E6E465300AA724A /* Frameworks */,
 				8185285E1E6E465300AA724A /* Resources */,
+				CAADF1814EAB311A3DCF93F7 /* [CP] Embed Pods Frameworks */,
+				8B75CC214B9F5C585E2988AE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,15 +478,19 @@
 				TargetAttributes = {
 					8185285F1E6E465300AA724A = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = LG9VD3U6LB;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					818528731E6E465300AA724A = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 8185285F1E6E465300AA724A;
 					};
 					8185287E1E6E465300AA724A = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 8185285F1E6E465300AA724A;
 					};
@@ -234,7 +523,11 @@
 			files = (
 				8185286E1E6E465300AA724A /* LaunchScreen.storyboard in Resources */,
 				8185286B1E6E465300AA724A /* Assets.xcassets in Resources */,
+				81EE04DE1EA9FCFB0060F2C5 /* CustomerListCell.xib in Resources */,
+				81EE04DA1EA9E2610060F2C5 /* AddTestDriveController.xib in Resources */,
 				818528691E6E465300AA724A /* Main.storyboard in Resources */,
+				817FDF211EA4C23E0000F6C0 /* LoginController.xib in Resources */,
+				8185B2981E9727E600A3A845 /* HomePassengerCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +547,79 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8B75CC214B9F5C585E2988AE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DriveTestSwift/Pods-DriveTestSwift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAADF1814EAB311A3DCF93F7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DriveTestSwift/Pods-DriveTestSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB2B5DE9252B965F0AFD4A5B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8185285C1E6E465300AA724A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8185289B1E6E582E00AA724A /* SZNavigationController.swift in Sources */,
+				8185B28D1E97268E00A3A845 /* String+Extention.swift in Sources */,
+				81EE04D91EA9E2610060F2C5 /* AddTestDriveController.swift in Sources */,
+				8185B2881E9725BB00A3A845 /* CustomerDetailController.swift in Sources */,
+				81CEB63D1EB1993300E26622 /* UIView+Extention.swift in Sources */,
+				810AB8591E9B8093000F53B4 /* HTTPTool.swift in Sources */,
+				81EE04DD1EA9FCFB0060F2C5 /* CustomerListCell.swift in Sources */,
+				8185289D1E6E584300AA724A /* SZBaseViewController.swift in Sources */,
+				816E4A941EB0336C00381B1D /* RYAlertView.swift in Sources */,
+				8185B2891E9725BB00A3A845 /* CustomerListController.swift in Sources */,
+				818528A61E6E5A2D00AA724A /* MeController.swift in Sources */,
+				818528AC1E6E5D5000AA724A /* SZConst.swift in Sources */,
+				8185B28E1E97268E00A3A845 /* UIColor+Extention.swift in Sources */,
+				8185B2961E9727E600A3A845 /* HomeController.swift in Sources */,
 				818528661E6E465300AA724A /* ViewController.swift in Sources */,
+				8185B2971E9727E600A3A845 /* HomePassengerCell.swift in Sources */,
 				818528641E6E465300AA724A /* AppDelegate.swift in Sources */,
+				817FDF201EA4C23E0000F6C0 /* LoginController.swift in Sources */,
+				818528991E6E562400AA724A /* SZTabBarController.swift in Sources */,
+				815636861E9E0059000B0CFB /* PassengerModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,24 +767,32 @@
 		};
 		818528891E6E465300AA724A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 715482E1BF334DF822563D41 /* Pods-DriveTestSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LG9VD3U6LB;
 				INFOPLIST_FILE = DriveTestSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ydauto.DriveTestSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		8185288A1E6E465300AA724A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5046095CEB5E97627566BCA /* Pods-DriveTestSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LG9VD3U6LB;
 				INFOPLIST_FILE = DriveTestSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ydauto.DriveTestSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -503,6 +870,7 @@
 				8185288A1E6E465300AA724A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8185288B1E6E465300AA724A /* Build configuration list for PBXNativeTarget "DriveTestSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +879,7 @@
 				8185288D1E6E465300AA724A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8185288E1E6E465300AA724A /* Build configuration list for PBXNativeTarget "DriveTestSwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +888,7 @@
 				818528901E6E465300AA724A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
