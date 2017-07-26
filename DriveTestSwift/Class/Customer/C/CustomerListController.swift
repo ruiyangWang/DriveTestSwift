@@ -12,7 +12,7 @@ class CustomerListController: SZBaseViewController, UITableViewDelegate, UITable
 
     let tableView = UITableView()
     let searchBar = UISearchBar()
-    
+    let cellID = "CustomerListCell"
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -27,8 +27,8 @@ class CustomerListController: SZBaseViewController, UITableViewDelegate, UITable
         tableView.frame = CGRect(x: 0, y: 0, width: SCREEN_WIDTH, height: SCREEN_HEIGHT)
         tableView.delegate = self
         tableView.dataSource = self
-        let nib = UINib(nibName: "CustomerListCell", bundle: nil)
-        tableView.register(nib, forCellReuseIdentifier: "CustomerListCell")
+        let nib = UINib(nibName: cellID, bundle: nil)
+        tableView.register(nib, forCellReuseIdentifier: cellID)
         view.addSubview(tableView)
         
         searchBar.frame = CGRect(x: 0, y: 64.0, width: SCREEN_WIDTH, height: 44.0)
@@ -43,7 +43,7 @@ class CustomerListController: SZBaseViewController, UITableViewDelegate, UITable
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let cell = tableView.dequeueReusableCell(withIdentifier: "CustomerListCell")
+        let cell = tableView.dequeueReusableCell(withIdentifier: cellID)
         
         return cell!
     }

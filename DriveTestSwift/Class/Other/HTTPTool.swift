@@ -11,6 +11,15 @@ import Alamofire
 import SwiftyJSON
 import SVProgressHUD
 
+enum ApiManager {
+    static let login = ServersIP + "/admin-webapp/loginapi/appdevice/login"
+    static let passangerList = ServersIP + "/admin-webapp/loginapi/appdevice/login"
+}
+
+
+let login = ServersIP + "/admin-webapp/loginapi/appdevice/login"
+let passangerList = ServersIP + "/admin-webapp/loginapi/appdevice/login"
+
 class HTTPTool: NSObject {
 
     static let shard = HTTPTool()
@@ -18,7 +27,7 @@ class HTTPTool: NSObject {
     
     //获取验证码
     func getCode(phone: String) {
-        
+       
         let urlString = ServersIP + "/admin-webapp/loginapi/appdevice/login"
         let para = [
             "phone" : phone,
@@ -38,7 +47,7 @@ class HTTPTool: NSObject {
                 print(dict)
                 
                 let stateCode = dict["code"].stringValue
-                
+        
                 guard stateCode == "S_OK" else {
                     let message = dict["var"].stringValue
                     SVProgressHUD.showError(withStatus: message)
@@ -46,6 +55,29 @@ class HTTPTool: NSObject {
                 }
                 
                 SVProgressHUD.showSuccess(withStatus: "获取验证码成功")
+            }
+        }
+    }
+    
+    
+    func apiTest(phone: String, success: @escaping ((_ result: [PassengerModel]) -> ()), faile: @escaping ((_ error: Any) -> ())) {
+    
+        let urlString = ServersIP + ""
+        
+        Alamofire.request(urlString, method: .post, parameters: nil).responseJSON { (response) in
+            
+            print("测试" + urlString + "\n" + "\(response)")
+            
+            guard response.result.isSuccess else {
+                
+                SVProgressHUD.showError(withStatus: "请求失败")
+                return
+            }
+            
+            if let value = response.result.value {
+                let dic = JSON(value)
+                print("\(dic)")
+                
             }
         }
     }
@@ -91,7 +123,7 @@ class HTTPTool: NSObject {
     }
     
     //首页获取客流列表
-    func loadPassengerList(success: @escaping ((_ result: [PassengerModel]) -> ())){
+    func loadPassengerList(success: @escaping ((_ result: [PassengerModel]) -> ()), faile: @escaping ((_ faile: Any) -> ())){
         SVProgressHUD.show(withStatus: "正在加载...")
         
         let urlString = ServersIP + "/passenger/trialListPassenger?" + SID
@@ -102,9 +134,8 @@ class HTTPTool: NSObject {
             print(response.error ?? "")
             guard response.result.isSuccess else {
                 print("加载失败...")
-                
                 SVProgressHUD.showError(withStatus: "加载失败")
-
+                faile("失败")
                 return
             }
             if let value = response.result.value {
@@ -128,6 +159,48 @@ class HTTPTool: NSObject {
                 
             }
             
+            
+        }
+        
+    }
+    
+    //获取客户列表
+    func loadCustomerList(success: @escaping ((_ result: Any) -> ())) {
+        
+        SVProgressHUD.show(withStatus: "正在加载...")
+        
+        let urlString = ServersIP + "" + SID
+        print(urlString)
+        
+        Alamofire.request(urlString).responseJSON { (response) in
+            
+            print(response.error ?? "")
+            guard response.result.isSuccess else {
+                print("加载失败...")
+                SVProgressHUD.showError(withStatus: "加载失败...")
+                
+                return
+            }
+            
+            if let value = response.result.value {
+                let dict = JSON(value)
+                let code = dict["code"].stringValue
+                let message = dict["var"].stringValue
+                guard code == "S_OK" else {
+                    print(message)
+                    return
+                }
+                
+                if let array = dict["var"].arrayObject {
+                    var pArray = [PassengerModel]()
+                    for d in array {
+                        let model = PassengerModel.init(dict: d as! [String : AnyObject])
+                        pArray.append(model)
+                    }
+                    success(pArray)
+                }
+                
+            }
         }
         
     }

@@ -21,7 +21,6 @@ class LoginController: SZBaseViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
     @IBAction func loginButtonClick(_ sender: UIButton) {
         //获取验证码
         HTTPTool.shard.getCode(phone: "18503019702")

@@ -28,6 +28,12 @@ class SZTabBarController: UITabBarController {
         self.addChildViewController(customerNVC)
         custmoerVC.title = "客户列表"
         
+        let rechargeVC = RechargeListController()
+        let rechargeNVC = SZNavigationController()
+        rechargeNVC.addChildViewController(rechargeVC)
+        self.addChildViewController(rechargeNVC)
+        rechargeVC.title = "充值"
+        
         let meVC = MeController()
         let meNVC = SZNavigationController()
         meNVC.addChildViewController(meVC)

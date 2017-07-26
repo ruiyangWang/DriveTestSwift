@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>MJRefresh.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-DriveTestSwift.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -27,12 +32,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>5D47799E0404F8D4358AD00EEDC50C00</key>
+		<key>0B8BDBB9E42840DF44B800559B4B7C48</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7071323F8F5FBC8FC5CD504BDF4EEC22</key>
+		<key>29DD99664D189A7CA206368F493B1E0B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -42,7 +47,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>CEF7823E62493A73EEEB1BF3EE192514</key>
+		<key>9C88D5489A4D1C688EC8319D0629360E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E638BACBE925AD902609EF1BEDADD153</key>
 		<dict>
 			<key>primary</key>
 			<true/>

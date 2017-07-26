@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		67FF6EFFB08FC1F2D3F5AC0C /* Pods_DriveTestSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D8A1D82C9DE2F13BFA70DDF /* Pods_DriveTestSwift.framework */; };
 		810AB8591E9B8093000F53B4 /* HTTPTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810AB8581E9B8093000F53B4 /* HTTPTool.swift */; };
-		815636861E9E0059000B0CFB /* PassengerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815636851E9E0059000B0CFB /* PassengerModel.swift */; };
 		816E4A941EB0336C00381B1D /* RYAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816E4A931EB0336C00381B1D /* RYAlertView.swift */; };
 		817FDF201EA4C23E0000F6C0 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817FDF1E1EA4C23E0000F6C0 /* LoginController.swift */; };
 		817FDF211EA4C23E0000F6C0 /* LoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 817FDF1F1EA4C23E0000F6C0 /* LoginController.xib */; };
@@ -32,6 +31,9 @@
 		8185B2961E9727E600A3A845 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8185B2901E9727E600A3A845 /* HomeController.swift */; };
 		8185B2971E9727E600A3A845 /* HomePassengerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8185B2941E9727E600A3A845 /* HomePassengerCell.swift */; };
 		8185B2981E9727E600A3A845 /* HomePassengerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8185B2951E9727E600A3A845 /* HomePassengerCell.xib */; };
+		8193AE931F13575000D39742 /* RechargeListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8193AE921F13575000D39742 /* RechargeListController.swift */; };
+		8193AE951F135AD400D39742 /* RechargeListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8193AE941F135AD400D39742 /* RechargeListCell.swift */; };
+		8193AE971F16081400D39742 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8193AE961F16081400D39742 /* HomeModel.swift */; };
 		81CEB63D1EB1993300E26622 /* UIView+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CEB63C1EB1993300E26622 /* UIView+Extention.swift */; };
 		81EE04D91EA9E2610060F2C5 /* AddTestDriveController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EE04D71EA9E2610060F2C5 /* AddTestDriveController.swift */; };
 		81EE04DA1EA9E2610060F2C5 /* AddTestDriveController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81EE04D81EA9E2610060F2C5 /* AddTestDriveController.xib */; };
@@ -60,7 +62,6 @@
 		2D8A1D82C9DE2F13BFA70DDF /* Pods_DriveTestSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DriveTestSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		715482E1BF334DF822563D41 /* Pods-DriveTestSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DriveTestSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DriveTestSwift/Pods-DriveTestSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		810AB8581E9B8093000F53B4 /* HTTPTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPTool.swift; sourceTree = "<group>"; };
-		815636851E9E0059000B0CFB /* PassengerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassengerModel.swift; sourceTree = "<group>"; };
 		816E4A931EB0336C00381B1D /* RYAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RYAlertView.swift; sourceTree = "<group>"; };
 		817FDF1E1EA4C23E0000F6C0 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		817FDF1F1EA4C23E0000F6C0 /* LoginController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginController.xib; sourceTree = "<group>"; };
@@ -89,6 +90,9 @@
 		8185B2901E9727E600A3A845 /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		8185B2941E9727E600A3A845 /* HomePassengerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePassengerCell.swift; sourceTree = "<group>"; };
 		8185B2951E9727E600A3A845 /* HomePassengerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomePassengerCell.xib; sourceTree = "<group>"; };
+		8193AE921F13575000D39742 /* RechargeListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RechargeListController.swift; sourceTree = "<group>"; };
+		8193AE941F135AD400D39742 /* RechargeListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RechargeListCell.swift; sourceTree = "<group>"; };
+		8193AE961F16081400D39742 /* HomeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
 		81CEB63C1EB1993300E26622 /* UIView+Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extention.swift"; sourceTree = "<group>"; };
 		81EE04D71EA9E2610060F2C5 /* AddTestDriveController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTestDriveController.swift; sourceTree = "<group>"; };
 		81EE04D81EA9E2610060F2C5 /* AddTestDriveController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddTestDriveController.xib; sourceTree = "<group>"; };
@@ -282,6 +286,7 @@
 				816E4A8F1EB032E700381B1D /* Common */,
 				8185289F1E6E587800AA724A /* Home */,
 				8185B2821E9725BB00A3A845 /* Customer */,
+				8193AE8E1F1356B200D39742 /* Activity */,
 				818528A01E6E587800AA724A /* Me */,
 				818528961E6E556C00AA724A /* Main */,
 				8185B28A1E97268E00A3A845 /* Category */,
@@ -386,7 +391,7 @@
 		8185B2911E9727E600A3A845 /* M */ = {
 			isa = PBXGroup;
 			children = (
-				815636851E9E0059000B0CFB /* PassengerModel.swift */,
+				8193AE961F16081400D39742 /* HomeModel.swift */,
 			);
 			path = M;
 			sourceTree = "<group>";
@@ -403,6 +408,39 @@
 			children = (
 				8185B2941E9727E600A3A845 /* HomePassengerCell.swift */,
 				8185B2951E9727E600A3A845 /* HomePassengerCell.xib */,
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		8193AE8E1F1356B200D39742 /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+				8193AE8F1F1356B200D39742 /* C */,
+				8193AE901F1356B200D39742 /* M */,
+				8193AE911F1356B200D39742 /* V */,
+			);
+			path = Activity;
+			sourceTree = "<group>";
+		};
+		8193AE8F1F1356B200D39742 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				8193AE921F13575000D39742 /* RechargeListController.swift */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		8193AE901F1356B200D39742 /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		8193AE911F1356B200D39742 /* V */ = {
+			isa = PBXGroup;
+			children = (
+				8193AE941F135AD400D39742 /* RechargeListCell.swift */,
 			);
 			path = V;
 			sourceTree = "<group>";
@@ -601,6 +639,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8185289B1E6E582E00AA724A /* SZNavigationController.swift in Sources */,
+				8193AE931F13575000D39742 /* RechargeListController.swift in Sources */,
 				8185B28D1E97268E00A3A845 /* String+Extention.swift in Sources */,
 				81EE04D91EA9E2610060F2C5 /* AddTestDriveController.swift in Sources */,
 				8185B2881E9725BB00A3A845 /* CustomerDetailController.swift in Sources */,
@@ -609,6 +648,7 @@
 				81EE04DD1EA9FCFB0060F2C5 /* CustomerListCell.swift in Sources */,
 				8185289D1E6E584300AA724A /* SZBaseViewController.swift in Sources */,
 				816E4A941EB0336C00381B1D /* RYAlertView.swift in Sources */,
+				8193AE951F135AD400D39742 /* RechargeListCell.swift in Sources */,
 				8185B2891E9725BB00A3A845 /* CustomerListController.swift in Sources */,
 				818528A61E6E5A2D00AA724A /* MeController.swift in Sources */,
 				818528AC1E6E5D5000AA724A /* SZConst.swift in Sources */,
@@ -619,7 +659,7 @@
 				818528641E6E465300AA724A /* AppDelegate.swift in Sources */,
 				817FDF201EA4C23E0000F6C0 /* LoginController.swift in Sources */,
 				818528991E6E562400AA724A /* SZTabBarController.swift in Sources */,
-				815636861E9E0059000B0CFB /* PassengerModel.swift in Sources */,
+				8193AE971F16081400D39742 /* HomeModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

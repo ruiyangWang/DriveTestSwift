@@ -21,4 +21,4 @@ let ServersIP = "http://192.168.8.118:8080"
 
 var SID : String = ""
 
-let kWindow = UIApplication.shared.delegate?.window
+let kWindow = UIApplication.shared.keyWindow

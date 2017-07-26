@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5D47799E0404F8D4358AD00EEDC50C00"
+               BlueprintIdentifier = "9C88D5489A4D1C688EC8319D0629360E"
                BuildableName = "Pods_DriveTestSwift.framework"
                BlueprintName = "Pods-DriveTestSwift"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5D47799E0404F8D4358AD00EEDC50C00"
+            BlueprintIdentifier = "9C88D5489A4D1C688EC8319D0629360E"
             BuildableName = "Pods_DriveTestSwift.framework"
             BlueprintName = "Pods-DriveTestSwift"
             ReferencedContainer = "container:Pods.xcodeproj">
